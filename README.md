@@ -29,5 +29,5 @@ sequenceDiagram
 
     Note right of browser: The browser executes the callback function that renders the notes
     Note right of browser: The user inputs and sends form to new note
-    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.js
+    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/new_note
     Note right of browser: new note is added in browser with DOM
